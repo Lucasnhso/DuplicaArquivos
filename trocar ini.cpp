@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+
 #include <iostream>
-//#define 
+
 
 using namespace std;
 int main (int argc, char *argv[]){
+	//Declaracao de variaveis
     char busca[40],  comando[100];
 	char arquivo[50];
 	
