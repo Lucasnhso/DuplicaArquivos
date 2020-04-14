@@ -9,13 +9,16 @@ int main (int argc, char *argv[]){
 	//Declaracao de variaveis
     char busca[40],  comando[100];
 	char arquivo[50];
-	
+	system("COLOR B");
     cout << "Qual base deseja utilizar?\n";
     cin >> busca;
     
     //Apagar arquivo ini atual
     if(remove("adjutor.ini") != 0){
     	cout << "Nao foi possivel apagar\n";
+	}
+	else{
+		cout << "Ini atual deletado com sucesso";
 	} 
 	
 	//duplicar arquivo e salvar para adjutor.ini
